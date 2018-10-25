@@ -1,0 +1,311 @@
+/*Warren was here 9/29/18*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+#body{
+    background-color: hsl(245, 0%, 70%);
+}
+
+#logo{
+	width: 25%;
+    height: 8%;
+	display: block;
+	float: left;
+    position: fixed;
+    top: 5rem;
+    left: 9rem;
+    margin-top: .5rem;
+    margin-left: 5rem;
+    margin-right: 4rem;
+}
+
+#logo-pic{
+    position: fixed;
+    display: inline-block;
+    top: 4.5rem;
+    left: 1rem;
+    width: 10%;
+    height: 10%; 
+    margin-right: 10rem;
+    padding: 0;
+}
+
+#logo-pic:hover {
+    cursor: initial;
+}
+
+#contact{
+	width: 25%;
+    height: 25%;
+    position: fixed;
+    display: inline-block;
+    top: 3.8rem;
+    left: 20rem;
+    cursor: pointer;
+}
+
+#email{
+    float: left;
+    display: inline-block;
+    width: 15%;
+    height: 18%;
+    padding: 0;
+    margin: 1rem .5rem 0 10rem;
+}
+
+#email:hover{
+    opacity: 0.7;
+}
+
+#linkedin{
+    float: left;
+    display: inline-block;
+    width: 25%;
+    height: 15%;
+    padding: 0;
+    margin: 1.2rem 0 0 0;
+    background-position: center; 
+}
+
+#linkedin:hover{
+    opacity: 0.7;
+}
+
+#nav{
+    z-index: 1;
+    position: fixed;
+    top: 4rem;
+    right: 5rem;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#nav1{
+    background-color: lightgray;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    color: darkblue;
+    text-shadow: .1rem .1rem .1rem rgba(218, 165, 32, 0.8);
+    font-family: 'Oswald', sans-serif;
+    margin-right: 1rem;
+    border: .2rem solid darkblue;
+    padding: 1rem;
+    box-shadow: .1rem .1rem black;
+    border-radius: 1.5rem;
+}
+
+#nav2{
+    background-color: lightgray;
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+    color: darkblue;
+    text-shadow: .1rem .1rem .1rem rgba(218, 165, 32, 0.8);
+    font-family: 'Oswald', sans-serif; 
+    margin-left: 1rem;
+    border: .2rem solid darkblue;
+    padding: 1rem;
+    box-shadow: .1rem .1rem black;
+    border-radius: 1.5rem;
+}
+
+#nav1:hover{
+    color: mediumblue;
+    opacity: 0.7;
+}
+
+#nav2:hover{
+    color: mediumblue;
+    opacity: 0.7;
+}
+
+.nav:visited{
+    color: darkblue;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+li{
+    display: inline;
+}
+
+#h1{ 
+    background-color: lightgray;
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;                
+    position: absolute;               
+    top: 5%;
+    left: 46.5%;
+    text-align: center;
+    letter-spacing: .2rem;
+	color: darkblue;
+	font-size: 3rem;
+	text-shadow: .3rem .3rem .3rem rgba(218, 165, 32, 0.7);
+    font-family: 'Oswald', sans-serif;  
+    border: .2rem solid darkblue;
+    border-radius: 50%;
+    box-shadow: .1rem .1rem black;
+    padding: 7.5rem 5rem 5rem 5rem;
+}
+
+main{
+    margin: 10rem auto 5rem auto;
+}
+
+section{
+    background-color: lightgray;
+    display: block;
+    margin: auto auto 7.5rem auto;
+    top: 32%;
+    left: 33%;
+    right: 30%;
+    text-align: center;
+    line-height: 222%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.4rem;
+    text-shadow: .06rem .06rem .06rem rgba(218, 165, 32, 0.8);
+    color: darkblue;
+    border: .2rem solid darkblue;
+    border-radius: 1.5rem;
+    box-shadow: .1rem .05rem black;
+    padding: 3rem 5rem 5rem 5rem;
+    position: absolute;
+}
+
+#ccs{
+    border: .2rem solid darkblue;
+    border-radius: 1.5rem;
+    box-shadow: .1rem .05rem black;
+    position absolute;
+    float: center;
+    background: linear-gradient(to bottom right, lightgray, darkblue);
+    color: goldenrod;
+    text-shadow: .10rem .10rem .10rem rgba(000, 000, 000, 0.8);
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: block;
+    margin: 20% auto auto auto;
+    text-align: center;
+    padding: .5rem 1.25rem .5rem 1.25rem;
+    outline: none;
+}
+
+#ccs:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    color: black;
+}
+
+#css:active{
+    text-decoration: none;
+}
+
+footer{
+    z-index: 1;
+    background-color: lightgray;
+    color: darkblue;
+    display: inline-block;
+	font-size: 1.5rem;
+	font-weight: bold;
+    text-align: center;
+    position: fixed;
+    bottom: 1rem;
+    left: 37.5%;
+    right: 35.5%;
+    text-shadow: .15rem .15rem .15rem rgba(218, 165, 32, 0.8);
+    font-family: 'Oswald', sans-serif;
+    border: .2rem solid darkblue;
+    padding: .2rem .8rem .2rem .8rem;
+    box-shadow: .1rem .05rem black;
+    border-radius: 1.5rem;
+    margin: 10rem auto auto auto;
+    width: 45rem;
+}
+
+@media only screen and (max-width: 60rem) {
+    footer{
+     padding: .4rem;
+     font-size: 1.4rem;   
+    }
+    
+    section{
+    font-size: 1.3rem;
+    }
+    
+    h1{
+    font-size: 2rem;
+    padding: 3rem 3rem 2.5rem 3rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    margin: auto;
+    left: 45%;
+    top: 15%;
+    text-shadow: .2rem .2rem .2rem rgba(218, 165, 32, 0.8);
+    }
+    
+    #logo{
+        width: 15%;
+        height: 4%;
+        margin-left: .5rem;
+        margin-bottom: 1rem;
+    }
+    
+    #logo-pic{
+        width: 8%;
+        height: 6%;
+        margin-left: 1rem;
+    }
+    #nav1{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    #nav2{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    #ccs{
+        font-size: 1.4rem;
+        padding: .5rem 1.25rem .5rem 1.25rem;
+        text-align: center;
+    }
+  #contact{
+        top: 3.6rem;
+        left: 10rem;
+        margin-left: 3rem;
+    }
+    #email{
+        width: 14%;
+        height: 13%;
+        margin-left: 2rem;
+         }
+    #linkedin{
+        width: 19%;
+        height: 9%;
+        margin-left: .2rem;
+    }
+    #footer{
+        width: auto;
+    }
+}
+
