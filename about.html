@@ -1,73 +1,73 @@
 <!--Warren was here 9/29/18-->
+<!--Warren debugged 2/13/19-->
 <!DOCTYPE html>
 
-<html lang="en-US">
+<html id="html" lang="en-US">
 
-<html id="html">
 <head>
 <meta charset="UTF-8">    
 <meta name="author" content="Nick Kliatsko & Warren Dolben">
 <meta name="title" content="NicKliatsko.net">
 <meta name="description" content="A personal landing page and coding testbed for Nick Kliatsko">
-<meta name="image" content="images/square.png">
-<link rel="shortcut icon" type="image" src="images/nick_mage_small.gif">
+
+<link rel="shortcut icon" href="images/nick_mage_small.gif">
 
     <title>NicKliatsko.net</title>
 	
-    <link rel="stylesheet" type="text/css"
-          href="about.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
     
-    <script type="text/javascript" src="script.js">
+    <script src="script.js">
     </script>
     
 </head>
     
 <body id="body">
 
-	<header>
+	<header id="header">
         
-		<div>
-			<img id="logo" src="images/logotest.png"/>
-		</div>
+     <div id="contact">
+                    
+            <img id="logo-pic" src="images/nick-pro-svg.svg" title="Nick Kliatsko" alt="A black and white of the author.">
+                
+         	<img id="logo" src="images/logo.png" alt="A logo featuring the author's name.">
+                    
+            <a href="mailto:nickliatsko@gmail.com" title="Email Me" target="_blank">
+            <img id="email" src="images/email.png" alt="A mail envelope button to send Nick mail.">
+            </a>
+         
+            <a href="https://www.linkedin.com/in/nkliatsko/" title="My Linkedin Page" target="_blank">
+            <img id="linkedin" src="images/Logo-Black.png" alt="The Linkedin logo in black.">
+            </a>  
+         
+      </div>
         
-		<nav id="nav">
+        	<nav id="nav">
            
             <a id="nav1" href="index.html" title="Home">Home</a>
+                
             <a id="nav2" href="blog.html" title="Blog">Blog</a>
             
-        </nav>
-        
-        		<div id="contact">
-                    
-                  <link href="about.html" title="About Me">
-                    <img id="logo-pic" src="images/nick-pro%20(2).svg" title="Nick Kliatsko" alt="A black and white of the author.">
-                
-                    "
-				]<link href="mailto:nickliatsko@gmail.com" rel="Email me" target="_blank">
-            <img id="email" src="images/email_mail_post_letter_stamp.png" alt="A mail envelope representing a button to send Nick mail.">
-                    
-<link href="https://www.linkedin.com/in/nkliatsko/" rel="My Linkedin page" target="_blank">
-<img id="linkedin" src="images/Logo-Black-101px-R.png">
-                    
-				    </div>
+            </nav>
         
     </header>
     
-    <main>
+    <main id="main">
             
 			<h1 id="h1">
                 About
             </h1>
             
 			<section id="section">
+
+                <h2>Hello</h2>
                 
-            <p>
-               I am a 23 year old self-taught student of HTML and Javascript 
-               looking to get my feet wet.  Why spend all my time reading about
-               web development when I can sit down and
-            </p>   
+                <p>
+                I am a 23 year old self-taught student of HTML and Javascript 
+                looking to get my feet wet.  Why spend all my time reading about
+                web development when I can sit down and
+                </p>   
                 
-            <p id="starone" class="ellipsis">
+                <p id="starone" class="ellipsis">
                 *
                 </p>
                 
@@ -77,27 +77,25 @@
                 
                 <p id="starthree" class="ellipsis">      
                     *  
-			</p>
+			    </p>
                 
                  <p id="create">
                 create!
-              </p>
+                </p>
                 
 			</section>
                 
            
-                 <button id="ccs" onclick="colorChange()" name="Change Color Scheme">
+            <button type="button" id="ccs" onclick="colorChange()" name="Change Color Scheme">
               Change Color Scheme
-                 </button>
+            </button>
            
-             
-			
     </main>
 		
     <footer id="footer">
             
             <p>
-                &copy; 2012-2018 Nick Kliatsko. All rights reserved.
+                &copy; 2012-2019 Nick Kliatsko. All rights reserved.
             </p>
             
     </footer>

@@ -1,69 +1,67 @@
 <!--Warren was here 9/28/18-->
+<!--Warren debugged 2/13/19-->
 <!DOCTYPE html>
 
-<html lang="en-US">
+<html id="html" lang="en-US">
     
-<html id="html">
 <head>
 <meta charset="UTF-8">
 <meta name="author" content="Nick Kliatsko & Warren Dolben">
 <meta name="title" content="NicKliatsko.net">
 <meta name="description" content="A personal landing page and coding testbed for Nick Kliatsko">
-<meta name="image" content="images/square.png">
-<link rel="shortcut icon" type="image" href="images/nick_mage_small.gif">
+
+<link rel="shortcut icon" href="images/nick_mage_small.gif">
 
     <title>NicKliatsko.net</title>
 	
-	<link rel="stylesheet" type="text/css" href="blogstyle.css">
+	<link rel="stylesheet" type="text/css" href="blog.css">
 	
-<script type="text/javascript" src="script.js">
+    <script src="script.js">
     </script>
+    
 </head>
     
 <body id="body">
 
-	<header id="page">
-        
-		<div>
-			<img id="logo" src="images/logotest.png">
-		</div>
+	<header id="header">
 		
-							<div id="contact">
+    <div id="contact">
                                 
-                            <link href="about.html" title="About Me">
-                                <img id="logo-pic" src="images/nick-pro%20(2).svg" title="Nick Kliatsko" alt="A black and white picture of the author.">
                             
+            <img id="logo-pic" src="images/nick-pro-svg.svg" title="Nick Kliatsko" alt="A black and white picture of the author.">
+                            
+            <img id="logo" src="images/logo.png" alt="A logo featuring the author's name.">
 				
-				              <link href="mailto:nickliatsko@gmail.com" title="Email me" target="_blank">
-					<img id="email" src="images/email_mail_post_letter_stamp.png" alt="A mail envelope representing a button to send Nick mail.">
-                                
- <link href="https://www.linkedin.com/in/nkliatsko/" title="My Linkedin page" target="_blank">
-              <img id="linkedin" src="images/Logo-Black-101px-R.png" alt="A link, featuring the linkedin logo, to the author's own page.">
-                    
+            <a href="mailto:nickliatsko@gmail.com" title="Email me" target="_blank">
+            <img id="email" src="images/email.png" alt="A mail envelope button to send Nick mail.">
+            </a>                    
+            <a href="https://www.linkedin.com/in/nkliatsko/" title="My Linkedin page" target="_blank">
+              <img id="linkedin" src="images/Logo-Black.png" alt="The Linkedin logo in black.">
+            </a>
 				
-			                </div>
+      </div>
 			
 		<nav id="nav">
             
             <a id="nav1" href="index.html" title="Home">Home</a>
+            
             <a id="nav2" href="about.html" title="About">About</a>
             
         </nav>
         
-    </header>
+        </header>
     
-    
-       <h1 id="h1">
-            Blog
-        </h1>
-    
-    <main>
+        <main id="main">
         
-		<article id="section">
+            <h1 id="h1">
+            Blog
+            </h1>
+        
+		    <article id="section">
             
-     <h2>
+            <h2>
          Blog Post #1 (Test Rant)
-     </h2>
+            </h2>
      <h3>    
 August 1, 2012
      </h3>        
@@ -283,12 +281,12 @@ If you hadn't already guessed, I have played with both tools as well as many oth
     </main>
     
 
-                 <button id="ccs" onclick="colorChange()" value="Change Color" name="Change Color Scheme">
+                 <button type="button" id="ccs" onclick="colorChange()"  name="Change Color Scheme">
               Change Color Scheme
                  </button>
         
         
-    <a id="topofpage" href="#h1" type="button" title="Top of Page" target="_top">
+    <a id="topofpage" href="#h1" title="Top of Page" target="_top">
     Top of Page
     </a>
     
@@ -296,7 +294,7 @@ If you hadn't already guessed, I have played with both tools as well as many oth
     <footer id="footer">
             
             <p>
-                &copy; 2012-2018 Nick Kliatsko. All rights reserved.
+                &copy; 2012-2019 Nick Kliatsko. All rights reserved.
             </p>
             
     </footer>

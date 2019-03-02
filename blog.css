@@ -1,6 +1,5 @@
-/*css file for about page
+/*blog style
 Warren touch up 2/13/19*/
-
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
@@ -61,8 +60,7 @@ Warren touch up 2/13/19*/
     display: inline-block;
     width: 15%;
     height: 18%;
-    padding: 0;
-    margin: 1rem .5rem 0 10rem;
+    margin: 1rem .5rem .4rem 10rem;
 }
 
 #email:hover{
@@ -74,7 +72,7 @@ Warren touch up 2/13/19*/
     display: inline-block;
     width: 25%;
     height: 15%;
-    padding: 0;
+    padding-bottom: 0;
     margin: 1.2rem 0 0 0;
 }
 
@@ -83,7 +81,6 @@ Warren touch up 2/13/19*/
 }
 
 #nav{
-    z-index: 1;
     position: fixed;
     top: 4rem;
     right: 5rem;
@@ -92,6 +89,7 @@ Warren touch up 2/13/19*/
 }
 
 #nav1{
+    z-index: 1;
     background-color: lightgray;
     text-decoration: none;
     font-size: 2rem;
@@ -112,6 +110,7 @@ Warren touch up 2/13/19*/
 }
 
 #nav2{
+    z-index: 1;
     background-color: lightgray;
     text-decoration: none;
     font-size: 2rem;
@@ -156,7 +155,7 @@ li{
 	color: darkblue;
 	font-size: 3rem;
 	text-shadow: .3rem .3rem .3rem rgba(218, 165, 32, 0.7);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;  
     border: .2rem solid darkblue;
     border-radius: 50%;
     box-shadow: .1rem .1rem black;
@@ -170,7 +169,7 @@ li{
 #section{
     background-color: lightgray;
     display: block;
-    margin: auto auto 7.5rem auto;
+    margin: 0 auto 10rem auto;
     top: 32%;
     left: 33%;
     right: 30%;
@@ -187,40 +186,6 @@ li{
     position: absolute;
 }
 
-.ellipsis{
-    font-size: 1.2rem;
-    display: flex;
-    flex-direction: row;
-}
-
-#starone{
-    display: flex;
-    justify-content: flex-end;
-    color: rebeccapurple;
-}
-
-#startwo{
-    display: flex;
-    justify-content: center;
-    color: rebeccapurple;
-}
-
-#starthree{
-    display: flex;
-    justify-content: flex-start;
-    color: rebeccapurple;
-}
-
-#create{
-    color: purple;
-    font-weight: bold;
-    background: goldenrod;
-    font-size: 1.5rem;
-    border-radius: 1.5rem;
-    width: 40%;
-    margin: auto;
-}
-
 #container:active{
     border: none;
 }
@@ -232,7 +197,7 @@ li{
     position: fixed;
     background: linear-gradient(to bottom right, lightgray, darkblue);
     color: goldenrod;
-    text-shadow: .10rem .10rem .10rem rgba(0, 0, 0, 0.8);
+    text-shadow: .10rem .10rem .10rem rgba(000, 000, 000, 0.8);
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     display: block;
@@ -252,6 +217,34 @@ li{
 
 #css:active{
     text-decoration: none;
+}
+
+#topofpage{
+    color: darkblue;
+    text-shadow: .06rem .06rem .06rem rgba(0, 0, 0, 0.8);
+    background: linear-gradient(to bottom right, lightgray, darkblue);
+    color: goldenrod;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    border: .2rem solid darkblue;
+    border-radius: 1.5rem;
+    box-shadow: .1rem .05rem black;
+    text-decoration: none;
+    padding: .5rem 1.25rem .5rem 1.25rem;
+    font-size: 1.5rem;
+}
+
+#topofpage:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    color: black;
 }
 
 #footer{
@@ -307,7 +300,7 @@ li{
         height: 13%;
         margin-left: 2rem;
          }
-    #linkedin{
+   #linkedin{
         width: 19%;
         height: 9%;
         margin-left: .2rem;
@@ -325,18 +318,18 @@ li{
     #section{
         font-size: 1.3rem;
     }
-    .ellipsis{
-        font-size: 2rem;
-    }
     #ccs{
         margin-left: 2rem;
         margin-top: 50%;
         font-size: 1.4rem;
         padding: .5rem;
     }
-    #footer{
-        padding: .4rem;
+    #topofpage{
         font-size: 1.4rem;
-        width: auto;
+    }
+    #footer{
+       padding: .4rem;
+       font-size: 1.4rem;   
+       width: auto; 
     }
 }
